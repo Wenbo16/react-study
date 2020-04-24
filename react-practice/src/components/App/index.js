@@ -3,6 +3,7 @@ import OrderList from "../OrderList";
 import TodoList from "../TodoList";
 // import OrderBook from "../OrderBook";
 import OrderBook2 from "../OrderBook2";
+import CoinBaseOrderBook from "../CoinBaseOrderBook";
 
 import "./style.css";
 
@@ -12,7 +13,7 @@ function App() {
       <OrderList />
       <TodoList />
       {/* <OrderBook /> */}
-      <OrderBook2 />
+      <CoinBaseOrderBook />
     </div>
   );
 }
