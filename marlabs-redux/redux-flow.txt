@@ -1,0 +1,14 @@
+store
+	components calls getstate() to get current state
+	dispatch（）
+	any changes to state, you use subscribe() get the latest change
+
+reducers
+	=> getiing initial state of the application
+	=> any update to perform on the state it needs to done using reducer
+	=> to perform state update you need actions
+
+action
+	=> to create action object you can use actioncreators()
+
+

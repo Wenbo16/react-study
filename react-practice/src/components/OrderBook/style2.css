@@ -1,0 +1,43 @@
+
+
+/* Method 2 */
+.order-book-table {
+    width: 500px;
+    /* table-layout: fixed; */
+    border-collapse: collapse;
+}
+
+.order-book-table th, .order-book-table td {
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.order-book-body {
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 200px;
+}
+
+.order-book-header tr {
+  /* to set height for the body
+   */
+  display: block;
+}
+
+.order-book-header {
+  background: black;
+  color:#fff;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.order-book-body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.order-book-body {
+    -ms-overflow-style: none;
+}

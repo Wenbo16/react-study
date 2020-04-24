@@ -1,0 +1,29 @@
+
+.list-item{
+	position:relative;
+	height: 320px;
+   	display: inline-block;
+   	text-align:center;
+	margin: 0 5px;
+}
+
+
+.MovieList{
+	margin-bottom: 50px;
+}
+
+
+h4{
+	margin-top: -2px;
+	font-size: 15px;
+}
+
+.myButton{
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+}
+
+.hidden { 
+	display : none; 
+}

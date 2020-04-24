@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.order-book-container {
+    /* height : 600px;
+    width: 500px; */
+    margin: 100px 0;
+}
+
+.order-book-table th, .order-book-table td {
+    padding: 5px;
+    text-align: right;
+}
+
+.order-book-table {
+    width: 500px;
+    display:block;
+    border-collapse: collapse;
+}
+
+.order-book-body  {
+    display:block;
+    height: 200px;
+    width: 100%;
+    overflow: auto;
+}
+
+/* Since we change the display property of tbody, we should change that property for thead element as well to prevent from breaking the table layout. */
+thead, tbody tr {
+    display:table;
+    /* table-layout:fixed和设置宽度的width:100%是一套组合拳，使得这个"table"的第一行宽度为100%，
+    并且每一列宽度是一致的，后面所有行按照第一行对齐，如果内容超出就出现滚动条。 */
+    width:100%;
+    table-layout:fixed;
+}
+
+.order-book-header {
+    background: black;
+    color:#fff;
+}
+  
+
+ 

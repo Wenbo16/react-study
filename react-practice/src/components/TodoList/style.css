@@ -1,0 +1,28 @@
+.todo-container {
+    width: 50%;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+input {
+    width: 75%;
+    float: left;
+}
+
+/* Style the "Add" button */
+.addBtn {
+    width: 25%;
+    background: #777;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.close {
+    float: right;
+}
