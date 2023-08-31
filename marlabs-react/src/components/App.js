@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import List from './List';
 import Create from './Create';
 import Home from './Home';
+import Chart from './Chart';
+
 import View from './View';
 import {Link, Route, Switch} from 'react-router-dom';
 
@@ -64,6 +66,7 @@ class App extends Component {
 						the "exact" prop. The following will match '/home', and
 						'/home/2'.*/}
 						<Route path="/home" component = {Home} />
+						<Route path="/chart" component = {Chart} />
 						<Route path="/list" render ={({history})=>{
 							console.log(history);
 							return <List users= {this.state.users_data} history={history} onRemoveUser= {this.removeUserParentFn}/>
